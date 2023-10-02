@@ -4,70 +4,66 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = () => {
   const educationDetails = [
     {
-      yearRange: "2015 - 2017",
-      title: "Master in Computer Engineering",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "September 2022 - March 2023",
+      title: "FrontEnd Developer",
+      place: "Seytech Online Bootcamp",
+      desc: "During the program, I gained proficiency in creating responsive and visually appealing web interfaces using HTML, CSS, JavaScript and React",
     },
     {
-      yearRange: "2014 - 2015",
-      title: "Bachelor in Computer Engineering",
-      place: "University of California",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2016 - 2018",
+      title: "Master Degree in Computer Information Systems",
+      place: "California University of Management and Sciences, Virginia Campus",
+      desc: "As a student I delve deep into both the theoretical and practical aspects of computer science and information systems, gained expertise in areas such as software development, database management, network security, data analytics",
     },
     {
-      yearRange: "2013 - 2014",
-      title: "International Science",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2004 - 2008",
+      title: "Bachelor  Degree in Agrochemistry",
+      place: "S.Seifullin Kazakh Agrotechnical University, Astana Kazakhstan",
+      desc: " Throughout my coursework and research experiences, I delved deep into the intricacies of soil chemistry, plant nutrition, and the sustainable management of agricultural resources.",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2020 - current",
-      title: "Sr. Font End Developer",
-      place: "Apple Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "April 2023 - current",
+      title: "",
+      place: "Cargo Fleet",
+      desc: "Internship project, were we develop and maintain React SPA for fleet management platform by using semantic HTML, CSS, Tailwind, Javascript and integrating REST APIs.",
     },
     {
-      yearRange: "2018 - 2020",
-      title: "Jr. Font End Developer",
-      place: "Dribbble Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2015 - 2021",
+      title: "Sales Representative",
+      place: "7 Movers",
+      desc: "Managed entire sales cycle, and provided exceptional service that resulted in customer satisfaction.",
     },
-    {
-      yearRange: "2017 - 2018",
-      title: "HTML Developer",
-      place: "Adobe Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    },
+    
   ];
 
   const skills = [
-    {
-      name: "Web Design",
-      percent: 65,
-    },
+   
     {
       name: "HTML/CSS",
       percent: 95,
     },
     {
       name: "JavaScript",
-      percent: 80,
-    },
-    {
-      name: "React JS",
       percent: 70,
     },
     {
-      name: "Angular Js",
-      percent: 60,
+      name: "React JS",
+      percent: 75,
+    },
+    {
+      name: "Tailwind",
+      percent: 75,
     },
     {
       name: "Bootstrap",
-      percent: 99,
+      percent: 80,
+    },
+    {
+      name: "Git",
+      percent: 75,
     },
   ];
 

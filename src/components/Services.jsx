@@ -4,35 +4,20 @@ const Services = () => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-palette",
+      name: "Web Development",
+      desc: "Quick learner on the latest Web Development trends. Adaptable to quickly changing technology stack.",
+      icon: "fa-solid fa-code",
     },
     {
-      name: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Responsive Web",
+      desc: "Design with the knowledge of different screen sizes, including mobile phones and tablets.",
       icon: "fas fa-desktop",
     },
     {
-      name: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "App Developement",
+      desc: "Develop different React apps and reusable UI components. I like optimizing and trimming off components from not really needed libraries.",
       icon: "fas fa-pencil-ruler",
-    },
-    {
-      name: "App Design & Develop",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-paint-brush",
-    },
-    {
-      name: "Business Analysis",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "SEO Marketing",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-bullhorn",
-    },
+    }
   ];
 
   return (

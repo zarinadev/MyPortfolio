@@ -21,7 +21,7 @@ const AboutUs = () => {
             </h2>
             <p className="text-5">
               I'm frontend &amp; developer with a passion for creating and developing simple, clean and slick websites that provide
-              real value to the end user. 
+              real value to the end user.Seeking to leverage my technical expertise and creative skills to contribute to innovative web projects and help organizations achieve their digital goals.
             </p>
           </div>
           <div

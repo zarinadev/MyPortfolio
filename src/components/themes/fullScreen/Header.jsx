@@ -52,10 +52,10 @@ const FullScreenHeader = ({ textWhite }) => {
               setIsNavModalClose(true);
             }}
           >
-            <img
+            {/* <img
               src={textWhite ? "images/logo-light.png" : "images/logo.png"}
               alt="Zarina"
-            />
+            /> */}
           </Link>
           {/* Logo End */}
           <div
