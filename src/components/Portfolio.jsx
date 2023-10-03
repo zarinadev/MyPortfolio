@@ -108,7 +108,7 @@ const Portfolio = () => {
       layoutMode: "masonry",
       originLeft: !isRtl,
     });
-
+ 
     // cleanup
     return () => {
       isotope.current.destroy();
