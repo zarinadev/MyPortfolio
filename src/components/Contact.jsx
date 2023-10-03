@@ -58,52 +58,15 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-5 text-center text-lg-start wow fadeInUp">
             <h2 className="text-10 fw-600 mb-5">Let's get in touch</h2>
-            <p className="text-5 mb-5">
-              I enjoy discussing new projects and design challenges. Please
-              share as much info, as possible so we can get the most out of our
-              first catch-up.
-            </p>
+         
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
-              5151 Sapphire Sky ln, Centreville, VA
+            Centreville, VA
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
             <p className="text-4">+1-(703)-438-1043</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-              {/* <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
-                  <a
-                    href="https://twitter.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </Tooltip>
-              </li> */}
-              {/* <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="http://www.facebook.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-instagram">
-                <Tooltip text="Instagram" placement="top">
-                  <a
-                    href="http://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </Tooltip>
-              </li> */}
-              <li className="social-icons-github">
+             <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
                     href="http://www.github.com/"
@@ -114,17 +77,17 @@ const Contact = () => {
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
-                  <a
-                    href="http://www.dribbble.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-dribbble" />
-                  </a>
-                </Tooltip>
-              </li>
+              <li className="social-icons-linkedin">
+                  <Tooltip text="Linkedin" placement="top">
+                    <a
+                      href="http://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </Tooltip>
+                </li>
             </ul>
           </div>
           <div
@@ -132,7 +95,7 @@ const Contact = () => {
             data-wow-delay="0.3s"
           >
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-              Estimate your Project?
+              Contact Me
             </h2>
             {/* Contact Form */}
             <form

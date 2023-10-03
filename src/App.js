@@ -4,7 +4,6 @@ import AboutUs from "./components/About";
 import Services from "./components/Services";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
@@ -14,8 +13,6 @@ import {
   themeConfig,
 } from "./config/commonConfig";
 import { Tooltip } from "./components/Tooltip";
-import CallToAction from "./components/CallToAction";
-import FAQs from "./components/FAQs";
 import FullScreenVideoBgIntro from "./components/themes/fullScreen/IntroVideoBg";
 import FullScreenHeader from "./components/themes/fullScreen/Header";
 import FullScreenDefaultIntro from "./components/themes/fullScreen/IntroDefault";
@@ -124,10 +121,7 @@ function App() {
             <AboutUs></AboutUs>
             <Services></Services>
             <Resume></Resume>
-            <Portfolio></Portfolio>
-            <CallToAction></CallToAction>
-            <FAQs></FAQs>
-            <Testimonials></Testimonials>
+            <Portfolio></Portfolio>        
             <Contact></Contact>
           </div>
           <Footer handleNavClick={handleNavClick}></Footer>

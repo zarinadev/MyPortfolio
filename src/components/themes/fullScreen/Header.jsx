@@ -184,7 +184,17 @@ const FullScreenHeader = ({ textWhite }) => {
                     </a>
                   </Tooltip>
                 </li>
-               
+                <li className="social-icons-github">
+                <Tooltip text="Github" placement="top">
+                  <a
+                    href="http://www.github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-github" />
+                  </a>
+                </Tooltip>
+              </li>
               </ul>
             </div>
           </div>

@@ -15,32 +15,54 @@ const Portfolio = () => {
 
   const filters = {
     DETAILED: "Details",
-    MOCKUPS: "Mockups",
-    YOUTUBE: "Youtube Videos",
-    VIMEO: "Vimeo Videos",
+    
   };
 
   const types = {
     IMAGE: "image",
-    VIDEO: "video",
+    
     DOCUMENT: "document",
   };
 
   const projectsData = [
     {
-      title: "Detailed Project 1",
+      title: "Girls Travel Tribe",
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+          "Health retreats cater to individuals seeking a break from their regular routines to focus on self-care, relaxation, and improving their health.",
+        client: "Asema Black",
+        technologies: "HTML5, CSS3, SCSS, JavaScript",
+        industry: "Wellness and Hospitality",
+        date: "May, 2023",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "Girls Travel Tribe Retreat Website",
+          link: "https://girlstraveltribe.netlify.app",
         },
+
+        sliderImages: [
+          "images/projects/project-2.jpg",
+          
+        ],
+      },
+
+      thumbImage: "images/projects/project-1.jpg",
+
+      categories: [filters.DETAILED],
+    },
+    {
+      title: "Weather Application",
+      type: types.DOCUMENT,
+      document: {
+        projectInfo:
+          "Application that provides real time weather forecasting.",
+        technologies: "HTML5, CSS3, JavaScript, React, Tailwind CSS",
+        industry: "Weather Forecasting",
+        date: "December 2022",
+        url: {
+          name: "Weather Application",
+          link: "weatheroftheworldapp.netlify.app"
+      },
 
         sliderImages: [
           "images/projects/project-2.jpg",
@@ -53,64 +75,29 @@ const Portfolio = () => {
       categories: [filters.DETAILED],
     },
     {
-      title: "Mockups Design 1",
-      type: types.IMAGE,
-
-      thumbImage: "images/projects/project-2.jpg",
-
-      categories: [filters.MOCKUPS],
-    },
-    {
-      title: "YouTube Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: false,
-        id: "PMNnEEEacCg",
-      },
-      thumbImage: "images/projects/project-3.jpg",
-
-      categories: [filters.YOUTUBE],
-    },
-    {
-      title: "Vimeo Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: true,
-        id: "259411563",
-      },
-
-      thumbImage: "images/projects/project-4.jpg",
-      categories: [filters.VIMEO],
-    },
-    {
-      title: "Detailed Project 2",
+      title: "My Portfolio",
       type: types.DOCUMENT,
       document: {
         projectInfo:
           "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+        client: "Asema Black",
+        technologies: "HTML5, CSS3, SCSS, JavaScript, React",
+        industry: "Technology",
+        date: "September 2023",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "My Personal Portfolio",
+          link: "https://zarinaweb.netlify.app",
         },
+
         sliderImages: [
-          "images/projects/project-1.jpg",
           "images/projects/project-2.jpg",
+          "images/projects/project-5.jpg",
         ],
       },
-      thumbImage: "images/projects/project-5.jpg",
+
+      thumbImage: "images/projects/project-1.jpg",
+
       categories: [filters.DETAILED],
-    },
-    {
-      title: "Mockups Design 2",
-      type: types.IMAGE,
-
-      thumbImage: "images/projects/project-6.jpg",
-
-      categories: [filters.MOCKUPS],
     },
   ];
 
@@ -126,7 +113,7 @@ const Portfolio = () => {
     return () => {
       isotope.current.destroy();
     };
-  }, []);
+  }, );
 
   // handling filter key change
   useEffect(() => {

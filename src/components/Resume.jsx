@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/ZarinaMLResume.pdf";
 
 const Resume = () => {
   const educationDetails = [

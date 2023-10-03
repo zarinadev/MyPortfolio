@@ -28,16 +28,7 @@ const AboutUs = () => {
             className="col-lg-4 mt-4 mt-lg-0 wow fadeInUp"
             data-wow-delay="0.2s"
           >
-            <div className="featured-box style-4">
-              <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
-                <span className="wow heartBeat" data-wow-delay="1.3s">
-                  1
-                </span>
-              </div>
-              <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
-                Years of <span className="fw-700">Experience</span>
-              </h3>
-            </div>
+            
           </div>
         </div>
         <div className="row gy-3 mt-4">
