@@ -20,7 +20,6 @@ const Portfolio = () => {
 
   const types = {
     IMAGE: "image",
-    
     DOCUMENT: "document",
   };
 
@@ -41,12 +40,12 @@ const Portfolio = () => {
         },
 
         sliderImages: [
-          "images/projects/project-2.jpg",
           
+          "images/projects/GTT3.jpg",
         ],
       },
 
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/gtt1.jpg",
 
       categories: [filters.DETAILED],
     },
@@ -65,12 +64,12 @@ const Portfolio = () => {
       },
 
         sliderImages: [
-          "images/projects/project-2.jpg",
-          "images/projects/project-5.jpg",
+          "images/projects/w3.jpg",
+          "images/projects/wa4.jpg",
         ],
       },
 
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/wa1.jpg",
 
       categories: [filters.DETAILED],
     },
@@ -79,23 +78,22 @@ const Portfolio = () => {
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Asema Black",
+          "My Personal Portfolio. Online website that showcases work, experience to share with press, potential employers",
         technologies: "HTML5, CSS3, SCSS, JavaScript, React",
         industry: "Technology",
         date: "September 2023",
         url: {
-          name: "My Personal Portfolio",
+          name: "My Portfolio",
           link: "https://zarinaweb.netlify.app",
         },
 
         sliderImages: [
-          "images/projects/project-2.jpg",
-          "images/projects/project-5.jpg",
+          "images/projects/pp2.jpg",
+          "images/projects/pp3.jpg",
         ],
       },
 
-      thumbImage: "images/projects/project-1.jpg",
+      thumbImage: "images/projects/pp1.jpg",
 
       categories: [filters.DETAILED],
     },
