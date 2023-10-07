@@ -69,7 +69,7 @@ const Contact = () => {
              <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="http://www.github.com/zarinadev"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -80,7 +80,7 @@ const Contact = () => {
               <li className="social-icons-linkedin">
                   <Tooltip text="Linkedin" placement="top">
                     <a
-                      href="http://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/zarina-abdrakhmanova/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

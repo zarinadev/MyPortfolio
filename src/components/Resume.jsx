@@ -11,7 +11,7 @@ const Resume = () => {
     },
     {
       yearRange: "2016 - 2018",
-      title: "Master Degree in Computer Information Systems",
+      title: "Master of Science in Computer Information Systems",
       place: "California University of Management and Sciences, Virginia Campus",
       desc: "As a student I delve deep into both the theoretical and practical aspects of computer science and information systems, gained expertise in areas such as software development, database management, network security, data analytics",
     },
